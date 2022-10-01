@@ -4,7 +4,7 @@ Create a video of ball bouncing adhering to gravity using openCV.
 I have implemented **1**(create ball bouncing video), **2**(create frames and detect the ball), **4**(with command line, choose the number of balls to be shown in the video in STEP 1) and **6**(create video of with the bounding and numbered overlay from STEP 2) out of the given tasks.
 
 
-**To run the main script (ball_bouncing):**
+**To run the main script (ball_bouncing):**<br>
   %python3 ball_bounce.py -c "white" -b 2 -g 1 -r 720
   - b represents number of bounces
   - c represents color of the ball
@@ -29,4 +29,12 @@ I have implemented **1**(create ball bouncing video), **2**(create frames and de
           -n NUMBER, --number NUMBER
                                 number of balls to bounce (preferably values: [1, 10])
 
+  Output:
+  - Video file (gravity_bounce.avi) which shows the ball(s) bouncing with gravitational effect.
+  - 
+           
+
 **To run the main script (ball_detection):**
+    %python3 ball_detection.py
+    
+    reads the video file created by ball_bounce.py 
