@@ -6,6 +6,7 @@ I have implemented **1**(create ball bouncing video), **2**(create frames and de
 
 ## To run the main script (ball_bouncing):
   %python3 ball_bounce.py -c "white" -b 2 -g 1 -r 720
+  (these are not required, so user can run without any or some parameters)
   - b represents number of bounces
   - c represents color of the ball
   - g represents gravity
@@ -40,3 +41,8 @@ I have implemented **1**(create ball bouncing video), **2**(create frames and de
     - folder (detection_images) containing all the frames with boundary overlay for the ball and number of frame on the left top of the image.
     - an image (result_grid.jpg) which takes equally distributed 16 frames from the folder to display as an example
     - video file (gravity_overlay.avi) which shows all frames as a video. (BONUS step)
+
+## Assumptions and explanations:
+
+- For multiple balls, video runs until the balls which takes the longest, i.e., was dropped from the most height will complete the number of bounces.
+- A boundary case: due to gravity the ball stops after some bounces (depending on the height it was dropped from). So, if number of bounces is a lot and the ball stops before, program runs for a second more (24 frames more, handled by a variable) and then breaks the loop so as to not create the long video with the ball still for more than half of the time. So, we understand that there is an upper limit to the number of bounces one can give to the program.
