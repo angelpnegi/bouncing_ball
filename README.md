@@ -48,3 +48,5 @@ I have implemented **1**(create ball bouncing video), **2**(create frames and de
 - A boundary case: due to gravity the ball stops after some bounces (depending on the height it was dropped from). So, if number of bounces is a lot and the ball stops before, program runs for a second more (24 frames more, handled by a variable) and then breaks the loop so as to not create the long video with the ball still for more than half of the time. So, we understand that there is an upper limit to the number of bounces one can give to the program.
 - The code only uses cv2, numpy, os and argparse to run.
 - note: i could not upload the overlay video for one test case as the video was over 150MB.
+- test cases are named according to the parameters given to the main code.
+- If number of balls is given as 0, program deals it with by defaulting it to 1.
