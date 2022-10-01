@@ -7,11 +7,11 @@ I have implemented **1**(create ball bouncing video), **2**(create frames and de
 ## To run the main script (ball_bouncing):
   %python3 ball_bounce.py -c "white" -b 2 -g 1 -r 720
   (these are not required, so user can run without any or some parameters)
-  - b represents number of bounces
-  - c represents color of the ball
-  - g represents gravity
-  - r represents height of the frame. width automatically keeps the ratio of around 1280:720.
-  - n represents number of balls to show in the .avi video (BONUS step)
+  - b represents number of bounces (default: 2)
+  - c represents color of the ball (default: "white")
+  - g represents gravity (default: 1)
+  - r represents height of the frame. width automatically keeps the ratio of around 1280:720. (default: 720)
+  - n represents number of balls to show in the .avi video (BONUS step) (default: 3)
 
     **Running % python3 ball_bounce.py --help gives: **
     
