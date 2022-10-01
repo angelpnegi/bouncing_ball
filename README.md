@@ -10,7 +10,7 @@ I have implemented **1**(create ball bouncing video), **2**(create frames and de
   - c represents color of the ball
   - g represents gravity
   - r represents height of the frame. width is fixed.
-  - n represents number of balls to show in the .avi video
+  - n represents number of balls to show in the .avi video (BONUS step)
 
     **Running % python3 ball_bounce.py --help gives: **
     
@@ -31,10 +31,12 @@ I have implemented **1**(create ball bouncing video), **2**(create frames and de
 
   Output:
   - Video file (gravity_bounce.avi) which shows the ball(s) bouncing with gravitational effect.
-  - 
            
 
 ## To run the main script (ball_detection):
     %python3 ball_detection.py
     
-    reads the video file created by ball_bounce.py 
+    reads the video file created by ball_bounce.py and gives output:
+    - folder (detection_images) containing all the frames with boundary overlay for the ball and number of frame on the left top of the image.
+    - an image (result_grid.jpg) which takes equally distributed 16 frames from the folder to display as an example
+    - video file (gravity_overlay.avi) which shows all frames as a video. (BONUS step)
