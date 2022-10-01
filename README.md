@@ -11,7 +11,6 @@ Create a video of ball bouncing adhering to gravity using openCV.
 
     **running % python3 ball_bounce.py --help gives: **     
         usage: ball_bounce.py [-h] [-c COLOR] [-b BOUNCE] [-g GRAVITY] [-r RESOLUTION]
-
         optional arguments:
           -h, --help            show this help message and exit
           -c COLOR, --color COLOR
