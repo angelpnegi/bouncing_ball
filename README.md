@@ -9,7 +9,8 @@ Create a video of ball bouncing adhering to gravity using openCV.
   - g represents gravity
   - r represents height of the frame. width is fixed.
 
-    **running % python3 ball_bounce.py --help gives: **     
+    **running % python3 ball_bounce.py --help gives: **
+    
         usage: ball_bounce.py [-h] [-c COLOR] [-b BOUNCE] [-g GRAVITY] [-r RESOLUTION]
         optional arguments:
           -h, --help            show this help message and exit
