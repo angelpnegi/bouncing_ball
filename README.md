@@ -10,7 +10,7 @@ I have implemented **1**(create ball bouncing video), **2**(create frames and de
   - b represents number of bounces
   - c represents color of the ball
   - g represents gravity
-  - r represents height of the frame. width is fixed.
+  - r represents height of the frame. width automatically keeps the ratio of around 1280:720.
   - n represents number of balls to show in the .avi video (BONUS step)
 
     **Running % python3 ball_bounce.py --help gives: **
