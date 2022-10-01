@@ -1,7 +1,7 @@
 # bouncing_ball
 Create a video of ball bouncing adhering to gravity using openCV.
 
-I have implemented 1(create ball boucing video), 2(create frames and detect the ball), 4(with command line, choose the number of balls to be shown in the video in STEP 1) and (create video of with the bounding and numbered overlay from STEP 2) out of the given tasks.
+I have implemented 1(create ball bouncing video), 2(create frames and detect the ball), 4(with command line, choose the number of balls to be shown in the video in STEP 1) and (create video of with the bounding and numbered overlay from STEP 2) out of the given tasks.
 
 
 **To run the main script (ball_bouncing):**
